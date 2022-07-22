@@ -20,7 +20,7 @@ test('getEmail method test', () => {
     expect(newintern.getEmail()).toBe('apark0819@gmail.com');
 });
 
-test('getGithub method test', () => {
+test('getSchool method test', () => {
     expect(newintern.getSchool()).toBe('USF');
 });
 

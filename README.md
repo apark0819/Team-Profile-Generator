@@ -4,9 +4,9 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributors](#contributors)
 - [Example](#example)
 - [Contact](#contact)
+
 ## Description 
 The team profile generator is an application that retrieves information about an employee and creates a webpage that displays the submitted information. 
 

@@ -98,9 +98,7 @@ const promptEngineer = () => {
 
 const promptIntern = () => {
     console.log(`
-    ===============
     Add a New Intern
-    ===============
     `);
 
     return inquirer.prompt([
@@ -126,8 +124,8 @@ const promptIntern = () => {
         }
     ]).then(answers => {
         console.log(answers);
-        const intern = new Intern(answers.name, answers.employeeId, answers.email, answers.school);
-        teamMembers.push(intern);
+        const newintern = new Intern(answers.name, answers.employeeId, answers.email, answers.school);
+        teamMembers.push(newintern);
         promptMenu();
     })
 };

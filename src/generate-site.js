@@ -76,29 +76,8 @@ module.exports = team => {
         <title>Team Profiles</title>
          <link rel="stylesheet" href="style.css">
         </head>   
-            
-            <body>
-                <div class="header-wrapper">
-                    <h1>Team Profile</h1>
-                </div>
-                <div class = "grid">
-                
-                    <div>
-                        <h2>Name: A</h2>
-                        <h3>Role: Manager</h3>
-                        <p>ID: 1</p>
-                        <p>Email: <a href="mailto:https://1">A</a></p>
-                        <p>Office Number: 1</p>
-                    </div>
-    
-                    <div>
-                        <h2>Name: B</h2>
-                        <h3>Role: Intern</h3>
-                        <p>ID: 2</p>
-                        <p>Email: <a href="mailto:https://2">B</a></p>
-                        <p>School: B</p>
-                    </div>
-    
+
+                <main> ${generateTeam(team)} </main>
                 </div>
             </body>                   
         </html>

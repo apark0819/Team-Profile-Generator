@@ -18,7 +18,9 @@ To proceed, run index.js from the command line.
 
 ## License
 MIT
+
 ## Example
+![RMG1](https://user-images.githubusercontent.com/107279321/180661550-67c747d4-bb99-444f-92f9-3a28247ec65c.gif)
 
 ## Contact
 [Github](https://github.com/apark0819/)

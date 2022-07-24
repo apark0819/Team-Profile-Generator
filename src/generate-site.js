@@ -7,7 +7,7 @@ const generateTeam = (team) => {
         <div class="card" style="width: 18rem;">
             <div class="card-header">
            ${manager.name} <br/>
-           <i class="fas fa-mug-hot"></i>Manager</div>
+           Manager</div>
            <ul class="list-group list-group-flush">
             <li class="list-group-item">ID: ${manager.id}</li>
             <li class="list-group-item">Email: <span id="email"><a href="mailto:${manager.email}">${manager.email}</a></span></li>
@@ -24,7 +24,7 @@ const generateTeam = (team) => {
         <div class="card" style="width: 18rem;">
             <div class="card-header">
            ${engineer.name} <br/>
-           <i class="fas fa-glasses"></i>Engineer</div>
+           Engineer</div>
            <ul class="list-group list-group-flush">
             <li class="list-group-item">ID: ${engineer.id}</li>
             <li class="list-group-item">Email: <span id="email"><a href="mailto:${engineer.email}">${engineer.email}</a></span></li>
@@ -40,7 +40,7 @@ const generateTeam = (team) => {
         <div class="card" style="width: 18rem;">
             <div class="card-header">
            ${intern.name} <br/>
-           <i class="fas fa-user-graduate"></i>Intern</div>
+           Intern</div>
            <ul class="list-group list-group-flush">
             <li class="list-group-item">ID: ${intern.id}</li>
             <li class="list-group-item">Email: <span id="email"><a href="mailto:${intern.email}">${intern.email}</a></span></li>
@@ -63,7 +63,6 @@ const generateTeam = (team) => {
         }
     }
 
-    // join the HTML blocks
     return html.join('');
 }
 module.exports = team => {

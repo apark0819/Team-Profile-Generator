@@ -1,15 +1,29 @@
 {
-    "name": "team_profile_generator",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "directories": {
-      "lib": "lib"
-    },
-    "scripts": {
-      "test": "jest --verbose"
-    },
-    "devDependencies": {
-      "jest": "^27.0.6"
-    }
+  "name": "team_profile_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apark0819/Team-Profile-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apark0819/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/apark0819/Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
   }
+}
